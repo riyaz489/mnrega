@@ -1,0 +1,6 @@
+[nose.plugins.0.10]
+doubles = doubles.nose:NoseIntegration
+
+[pytest11]
+doubles = doubles.pytest_plugin
+

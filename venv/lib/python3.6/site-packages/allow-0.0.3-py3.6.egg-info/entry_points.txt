@@ -1,0 +1,3 @@
+[console_scripts]
+allow = allow.run:allow.interface.cli
+

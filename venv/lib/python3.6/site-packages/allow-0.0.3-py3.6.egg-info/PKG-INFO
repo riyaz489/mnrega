@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: allow
+Version: 0.0.3
+Summary: Personal Website Safe and Block List Management Script
+Home-page: https://github.com/timothycrosley/allow
+Author: Timothy Crosley
+Author-email: timothy.crosley@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Focus,Python,Python3,Firewall,Filter,Utility,Block,Allow
+Platform: UNKNOWN
+Requires: hug

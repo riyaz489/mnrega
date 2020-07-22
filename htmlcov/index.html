@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">100%</span>
+        </h1>
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+<div id="index">
+    <table class="index">
+        <thead>
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>1260</td>
+                <td>0</td>
+                <td>5</td>
+                <td class="right" data-ratio="1260 1260">100%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="file">
+                <td class="name left"><a href="common___init___py.html">common/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="common_connect_db_py.html">common/connect_db.py</a></td>
+                <td>160</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="160 160">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="common_constants_py.html">common/constants.py</a></td>
+                <td>104</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="104 104">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="common_helper_py.html">common/helper.py</a></td>
+                <td>52</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="52 52">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="common_password_encryption_py.html">common/password_encryption.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="13 13">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="common_validations_py.html">common/validations.py</a></td>
+                <td>54</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="54 54">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="mgnrega___init___py.html">mgnrega/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="mgnrega_bdo_py.html">mgnrega/bdo.py</a></td>
+                <td>418</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="418 418">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="mgnrega_gpm_py.html">mgnrega/gpm.py</a></td>
+                <td>320</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="320 320">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="mgnrega_login_py.html">mgnrega/login.py</a></td>
+                <td>51</td>
+                <td>0</td>
+                <td>5</td>
+                <td class="right" data-ratio="51 51">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="mgnrega_member_py.html">mgnrega/member.py</a></td>
+                <td>88</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="88 88">100%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.0.3</a>,
+            created at 2020-01-31 16:41
+        </p>
+    </div>
+</div>
+</body>
+</html>

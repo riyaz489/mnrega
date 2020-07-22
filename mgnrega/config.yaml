@@ -1,0 +1,7 @@
+# config for project
+mysql:
+  # database path for connection
+  db: "data/mgnrega.db"
+enc:
+  # salt for encryption
+  salt: "this is the salt-> %^&% $% %$#$%#FDGFDGFDG$#%#$%"

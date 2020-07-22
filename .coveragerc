@@ -1,0 +1,10 @@
+[run]
+omit =*/.local/*
+# removing files from local directory
+       */test/*
+# removing test folder
+
+[report]
+
+exclude_lines =
+    if __name__ == .__main__.:
