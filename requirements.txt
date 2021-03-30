@@ -59,7 +59,7 @@ py==1.8.1
 py4j==0.10.7
 pycparser==2.19
 pycrypto==2.6.1
-Pygments==2.5.2
+Pygments==2.7.4
 pygobject==3.26.1
 pynput==1.6.5
 pyparsing==2.4.6
