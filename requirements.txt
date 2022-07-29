@@ -38,7 +38,7 @@ jupyterlab-launcher==0.11.2
 keyring==10.6.0
 keyrings.alt==3.0
 MarkupSafe==1.1.1
-mistune==0.8.4
+mistune==2.0.3
 mock==3.0.5
 more-itertools==5.0.0
 Naked==0.1.31
